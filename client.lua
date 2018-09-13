@@ -55,7 +55,7 @@ Citizen.CreateThread(function()
 					local playerHealth = GetEntityHealth(playerPed)-100 --We substract 100 because GTA has a weird system in which the health goes from 100 to 200
 					local playerArmour = GetPedArmour(playerPed) --Isn't ARMOR the right word? *Triggering brits*
 					local posx = -0.005 --Some variables
-					local posy = 0.980	--^
+					local posy = 0.975	--^
 					DisplayRadar(false) --Hide the radar
 
 					--Draw the new health and armor bar... somehow...
